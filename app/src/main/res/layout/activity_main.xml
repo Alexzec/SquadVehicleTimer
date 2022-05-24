@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="2dp"
+    android:layout_marginRight="4dp"
+    tools:context="com.squadapp.squadvehicletimer.MainActivity"
+    android:layout_marginStart="2dp"
+    android:layout_marginEnd="4dp">
+
+    <LinearLayout
+        android:id="@+id/spinner_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <Spinner
+            android:id="@+id/map_spinner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown"
+            android:layout_weight="1"/>
+        <Spinner
+            android:id="@+id/layer_spinner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/battle_details_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/spinner_layout"
+        app:layout_constraintStart_toEndOf="@id/spinner_layout">
+        <TextView
+            android:id="@+id/batte_report_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Battle report"/>
+        <net.cachapa.expandablelayout.ExpandableLayout
+            android:id="@+id/battle_details_expandable_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:el_duration="1000"
+            app:el_expanded="true"
+            app:el_parallax="0.5">
+                <fragment
+                    android:id="@+id/small_report_fragment"
+                    android:name="com.squadapp.squadvehicletimer.SmallReportFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:layout="@layout/fragment_small_report" />
+        </net.cachapa.expandablelayout.ExpandableLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layer_filter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toEndOf="@+id/battle_details_layout"
+        app:layout_constraintTop_toBottomOf="@+id/battle_details_layout">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Show armor"/>
+        <ToggleButton
+            android:id="@+id/toggle_armor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Show transport"/>
+        <ToggleButton
+            android:id="@+id/toggle_transport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/faction_horizontal_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toEndOf="@+id/layer_filter"
+        app:layout_constraintTop_toBottomOf="@+id/layer_filter">
+
+        <TextView
+            android:id="@+id/left_faction_name"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="FactionLeft" />
+
+        <TextView
+            android:id="@+id/right_faction_name"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="FactionRight" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/horizontal_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="1dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@id/main_layout"
+        app:layout_constraintStart_toEndOf="@+id/faction_horizontal_layout"
+        app:layout_constraintTop_toBottomOf="@+id/faction_horizontal_layout">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:id="@+id/left_vertical_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+        </ScrollView>
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:id="@+id/right_vertical_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
