@@ -21,7 +21,8 @@ public enum VehicleType {
     CAR_MORTAR(R.drawable.car_morter_icon, R.drawable.car_morter_destroyed_icon, R.drawable.car_morter_ok_icon),
     ARMOR_HUNTER(R.drawable.armor_hunter_icon, R.drawable.armor_hunter_destroyed_icon, R.drawable.armor_hunter_ok_icon),
     AA(R.drawable.aa_icon, R.drawable.aa_destroyed_icon, R.drawable.aa_ok_icon),
-    AA_TRUCK(R.drawable.aa_truck_icon, R.drawable.aa_truck_destroyed_icon, R.drawable.aa_truck_ok_icon);
+    AA_TRUCK(R.drawable.aa_truck_icon, R.drawable.aa_truck_destroyed_icon, R.drawable.aa_truck_ok_icon),
+    RADIO(R.drawable.radio_icon, R.drawable.radio_bleeding_icon, R.drawable.radio_destroyed_icon);
 
     public final int icon;
     public final int destroyed_icon;

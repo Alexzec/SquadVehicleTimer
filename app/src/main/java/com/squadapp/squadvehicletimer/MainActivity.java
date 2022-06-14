@@ -34,6 +34,8 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
+import static com.squadapp.squadvehicletimer.R.string.load_map_fail_message;
+
 public class MainActivity extends AppCompatActivity {
     private final String JSON_PATH = "raw";
 
@@ -104,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
         if (mapList.size() > 0) {
             currentMap = mapList.get(0);
         } else {
-            Toast.makeText(this, "Failed to load maps", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, getString(load_map_fail_message), Toast.LENGTH_LONG).show();
             this.finish();
             System.exit(1);
         }
@@ -276,6 +278,7 @@ public class MainActivity extends AppCompatActivity {
     private void refreshVehicleLayout(ViewGroup layout, ArrayList<Vehicle> vehicleList){
         TimerBlock currentBlock;
         layout.removeAllViews();
+        createRadioTimer(layout);
         for (Vehicle vehicle : vehicleList){
             currentBlock = createTimer(vehicle, layout);
             if (armorVehicleTypes.contains(vehicle.getType())) {
@@ -295,6 +298,16 @@ public class MainActivity extends AppCompatActivity {
                 fragment.addBattleReportRightFaction(new BattleReport(Calendar.getInstance().getTime(), vehicle));
                 break;
         }
+    }
+
+    private TimerBlock createRadioTimer(ViewGroup layout){
+        Vehicle radio = new Vehicle();
+        radio.setName(getString(R.string.radio_name));
+        radio.setDelayTime(0);
+        radio.setRespawnTime(1);
+        radio.setTicketCost(20);
+        radio.setType(VehicleType.RADIO);
+        return createTimer(radio, layout);
     }
 
 }

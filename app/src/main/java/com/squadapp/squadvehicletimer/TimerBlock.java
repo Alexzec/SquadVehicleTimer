@@ -281,6 +281,7 @@ public class TimerBlock extends Fragment {
         buttonRemoveOneMn.setText(REMOVE_1MN_TIMER_TEXT);
         buttonRemoveOneMn.setSingleLine(true);
         buttonRemoveOneMn.setOnClickListener(v -> removeOneMnFromCounter());
+        buttonRemoveOneMn.setVisibility(View.INVISIBLE);
 
         buttonRemoveOneMn.setLayoutParams(new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
@@ -304,6 +305,7 @@ public class TimerBlock extends Fragment {
         buttonStartPause.setText(PAUSE_TIMER_TEXT);
         buttonReset.setVisibility(View.INVISIBLE);
         imageViewIcon.setImageResource(vehicle.getType().destroyed_icon);
+        buttonRemoveOneMn.setVisibility(View.VISIBLE);
     }
 
     private CountDownTimer createNewTimer(long time){
@@ -360,6 +362,7 @@ public class TimerBlock extends Fragment {
         } else {
             textViewCounter.setText(String.format(Locale.getDefault(), "%02d:00", vehicle.getRespawnTime()));
         }
+        buttonRemoveOneMn.setVisibility(View.INVISIBLE);
     }
 
     public void update(){
