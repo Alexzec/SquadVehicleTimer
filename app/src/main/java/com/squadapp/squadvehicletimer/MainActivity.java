@@ -29,6 +29,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Calendar;
+import java.util.Comparator;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -279,6 +280,14 @@ public class MainActivity extends AppCompatActivity {
         TimerBlock currentBlock;
         layout.removeAllViews();
         createRadioTimer(layout);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+            vehicleList.sort(new Comparator<Vehicle>() {
+                @Override
+                public int compare(Vehicle vehicle, Vehicle t1) {
+                    return vehicle.getType().display_priority - t1.getType().display_priority;
+                }
+            });
+        }
         for (Vehicle vehicle : vehicleList){
             currentBlock = createTimer(vehicle, layout);
             if (armorVehicleTypes.contains(vehicle.getType())) {
