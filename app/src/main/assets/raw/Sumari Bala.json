@@ -57,11 +57,28 @@
 {"layer_name": "AAS v4", "faction_left": "CAF", "faction_right": "MEA", "vehicle_list_left": [
 {"vehicle_name":"MSVS Transport Truck" ,"vehicle_class":"TRANSPORT_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":6},
 {"vehicle_name":"MSVS Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"LUVW Logistics" ,"vehicle_class":"LOGI_CAR", "respawn_time":3, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"LUVW Logistics" ,"vehicle_class":"LOGI_CAR", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"LUVW Logistics" ,"vehicle_class":"LOGI_CAR", "respawn_time":3, "ticket_cost":1, "delay_time":0},
+{"vehicle_name":"LUVW Logistics" ,"vehicle_class":"LOGI_CAR", "respawn_time":3, "ticket_cost":1, "delay_time":0},
 {"vehicle_name":"LUVW M2" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":6, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"LUVW M2" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":6, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"LUVW M2" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":6, "ticket_cost":5, "delay_time":0}
+], "vehicle_list_right": [
+{"vehicle_name":"Ural-4320 Transport Truck" ,"vehicle_class":"TRANSPORT_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":6},
+{"vehicle_name":"Simir Logi" ,"vehicle_class":"LOGI_CAR", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"Simir Logi" ,"vehicle_class":"LOGI_CAR", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"Simir Logi" ,"vehicle_class":"LOGI_CAR", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"Simir Logi" ,"vehicle_class":"LOGI_CAR", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"Simir Kord" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":5, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"Simir Kord" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":5, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"Simir Kord" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":5, "ticket_cost":5, "delay_time":0}
+]},
+{"layer_name": "AAS v5", "faction_left": "USMC", "faction_right": "MEA", "vehicle_list_left": [
+{"vehicle_name":"M939 Transport Truck" ,"vehicle_class":"TRANSPORT_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":6},
+{"vehicle_name":"M939 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"M939 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"M1151 M2 Open Doors" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":6, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"M1151 M2 Open Doors" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":6, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"M1151 M2 Open Doors" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":6, "ticket_cost":5, "delay_time":0}
 ], "vehicle_list_right": [
 {"vehicle_name":"Ural-4320 Transport Truck" ,"vehicle_class":"TRANSPORT_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":6},
 {"vehicle_name":"Simir Logi" ,"vehicle_class":"LOGI_CAR", "respawn_time":3, "ticket_cost":5, "delay_time":0},

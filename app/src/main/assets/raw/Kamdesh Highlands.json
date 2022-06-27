@@ -293,10 +293,11 @@
 {"vehicle_name":"TAPV M2" ,"vehicle_class":"CAR", "respawn_time":6, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"TAPV M2" ,"vehicle_class":"CAR", "respawn_time":6, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"M113A3 TLAV" ,"vehicle_class":"TRACKED_APC", "respawn_time":6, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"Coyote" ,"vehicle_class":"WHEELED_RECO", "respawn_time":10, "ticket_cost":10, "delay_time":0},
 {"vehicle_name":"LAV 6" ,"vehicle_class":"WHEELED_IFV", "respawn_time":15, "ticket_cost":10, "delay_time":0},
 {"vehicle_name":"LAV 6" ,"vehicle_class":"WHEELED_IFV", "respawn_time":15, "ticket_cost":10, "delay_time":0},
-{"vehicle_name":"LAV 6" ,"vehicle_class":"WHEELED_IFV", "respawn_time":15, "ticket_cost":10, "delay_time":0},
-{"vehicle_name":"Leopard 2A6M CAN" ,"vehicle_class":"MBT", "respawn_time":20, "ticket_cost":15, "delay_time":10}
+{"vehicle_name":"Leopard 2A6M CAN" ,"vehicle_class":"MBT", "respawn_time":20, "ticket_cost":15, "delay_time":10},
+{"vehicle_name":"CH-146" ,"vehicle_class":"HELI", "respawn_time":6, "ticket_cost":5, "delay_time":6}
 ], "vehicle_list_right": [
 {"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":1, "ticket_cost":1, "delay_time":0},
 {"vehicle_name":"MT-LB PKT" ,"vehicle_class":"TRACKED_APC", "respawn_time":0, "ticket_cost":5, "delay_time":0},
@@ -454,10 +455,10 @@
 {"layer_name": "RAAS v7", "faction_left": "CAF", "faction_right": "INS", "vehicle_list_left": [
 {"vehicle_name":"LUVW Transport" ,"vehicle_class":"TRANSPORT_CAR", "respawn_time":3, "ticket_cost":5, "delay_time":6},
 {"vehicle_name":"LUVW Transport" ,"vehicle_class":"TRANSPORT_CAR", "respawn_time":3, "ticket_cost":5, "delay_time":6},
-{"vehicle_name":"LUVW Logistics" ,"vehicle_class":"LOGI_CAR", "respawn_time":3, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"LUVW Logistics" ,"vehicle_class":"LOGI_CAR", "respawn_time":3, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"LUVW Logistics" ,"vehicle_class":"LOGI_CAR", "respawn_time":3, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"LUV-A1 Logistics" ,"vehicle_class":"LOGI_CAR", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"LUVW Logistics" ,"vehicle_class":"LOGI_CAR", "respawn_time":3, "ticket_cost":1, "delay_time":0},
+{"vehicle_name":"LUVW Logistics" ,"vehicle_class":"LOGI_CAR", "respawn_time":3, "ticket_cost":1, "delay_time":0},
+{"vehicle_name":"LUVW Logistics" ,"vehicle_class":"LOGI_CAR", "respawn_time":3, "ticket_cost":1, "delay_time":0},
+{"vehicle_name":"LUV-A1 Logistics" ,"vehicle_class":"LOGI_CAR", "respawn_time":3, "ticket_cost":1, "delay_time":0},
 {"vehicle_name":"LUVW C6" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":6, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"LUVW C6" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":6, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"LUVW C6" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":6, "ticket_cost":5, "delay_time":0},

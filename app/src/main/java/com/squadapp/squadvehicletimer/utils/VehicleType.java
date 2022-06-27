@@ -22,7 +22,12 @@ public enum VehicleType {
     ARMOR_HUNTER(R.drawable.armor_hunter_icon, R.drawable.armor_hunter_destroyed_icon, R.drawable.armor_hunter_ok_icon,4),
     AA(R.drawable.aa_icon, R.drawable.aa_destroyed_icon, R.drawable.aa_ok_icon,7),
     AA_TRUCK(R.drawable.aa_truck_icon, R.drawable.aa_truck_destroyed_icon, R.drawable.aa_truck_ok_icon,7),
-    RADIO(R.drawable.radio_icon, R.drawable.radio_bleeding_icon, R.drawable.radio_destroyed_icon,0);
+    RADIO(R.drawable.radio_icon, R.drawable.radio_bleeding_icon, R.drawable.radio_destroyed_icon,0),
+    WHEELED_RECO(R.drawable.wheeled_ifv_icon, R.drawable.wheeled_ifv_destroyed_icon, R.drawable.wheeled_ifv_ok_icon, 3),
+    BOAT_TURRET(R.drawable.boat_icon, R.drawable.boat_detroyed_icon, R.drawable.boat_ok_icon, 10),
+    BOAT_LOGI(R.drawable.boat_icon, R.drawable.boat_detroyed_icon, R.drawable.boat_ok_icon, 10),
+    BOAT_TRANSPORT(R.drawable.boat_icon, R.drawable.boat_detroyed_icon, R.drawable.boat_ok_icon, 10),
+    TRACKED_APC_LOGI(R.drawable.tracked_apc_open_icon, R.drawable.tracked_apc_open_destroyed_icon, R.drawable.tracked_apc_open_ok_icon, 6);
 
     public final int icon;
     public final int destroyed_icon;

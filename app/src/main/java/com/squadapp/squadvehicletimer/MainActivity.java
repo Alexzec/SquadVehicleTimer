@@ -80,13 +80,15 @@ public class MainActivity extends AppCompatActivity {
             armorVehicleTypes = Set.of(VehicleType.MBT, VehicleType.ARMOR_HUNTER,
                     VehicleType.TRACKED_IFV, VehicleType.WHEELED_IFV,
                     VehicleType.TRACKED_APC, VehicleType.WHEELED_APC,
-                    VehicleType.TRACKED_APC_OPEN_TOP);
+                    VehicleType.TRACKED_APC_OPEN_TOP, VehicleType.WHEELED_RECO,
+                    VehicleType.TRACKED_APC_LOGI);
         } else {
             armorVehicleTypes =new HashSet<>(Arrays.asList(
                     VehicleType.MBT, VehicleType.ARMOR_HUNTER,
                     VehicleType.TRACKED_IFV, VehicleType.WHEELED_IFV,
                     VehicleType.TRACKED_APC, VehicleType.WHEELED_APC,
-                    VehicleType.TRACKED_APC_OPEN_TOP));
+                    VehicleType.TRACKED_APC_OPEN_TOP, VehicleType.WHEELED_RECO,
+                    VehicleType.TRACKED_APC_LOGI));
         }
 
         List<String> mapListNames;
