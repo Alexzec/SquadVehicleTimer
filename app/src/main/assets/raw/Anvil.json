@@ -115,7 +115,7 @@
 {"vehicle_name":"Simir MG3" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":5, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"Simir Kord" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":5, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"Simir Kord" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":5, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"MT-LBM 6MA" ,"vehicle_class":"TRACKED_APC", "respawn_time":10, "ticket_cost":10, "delay_time":0},
+{"vehicle_name":"MT-LBM 6MA S8" ,"vehicle_class":"TRACKED_APC", "respawn_time":10, "ticket_cost":10, "delay_time":0},
 {"vehicle_name":"BMP-2" ,"vehicle_class":"TRACKED_IFV", "respawn_time":15, "ticket_cost":10, "delay_time":10},
 {"vehicle_name":"T-72S" ,"vehicle_class":"MBT", "respawn_time":20, "ticket_cost":15, "delay_time":10},
 {"vehicle_name":"Mi-17" ,"vehicle_class":"HELI", "respawn_time":6, "ticket_cost":5, "delay_time":0}
@@ -141,8 +141,8 @@
 {"vehicle_name":"Simir MG3" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":5, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"Simir Kord" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":5, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"Simir Kord" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":5, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"MT-LBM 6MA" ,"vehicle_class":"TRACKED_APC", "respawn_time":10, "ticket_cost":10, "delay_time":0},
-{"vehicle_name":"MT-LBM 6MA" ,"vehicle_class":"TRACKED_APC", "respawn_time":10, "ticket_cost":10, "delay_time":0},
+{"vehicle_name":"MT-LBM 6MA S8" ,"vehicle_class":"TRACKED_APC", "respawn_time":10, "ticket_cost":10, "delay_time":0},
+{"vehicle_name":"MT-LBM 6MA S8" ,"vehicle_class":"TRACKED_APC", "respawn_time":10, "ticket_cost":10, "delay_time":0},
 {"vehicle_name":"BMP-1" ,"vehicle_class":"TRACKED_IFV", "respawn_time":15, "ticket_cost":10, "delay_time":10},
 {"vehicle_name":"T-72S" ,"vehicle_class":"MBT", "respawn_time":20, "ticket_cost":15, "delay_time":10},
 {"vehicle_name":"Mi-17" ,"vehicle_class":"HELI", "respawn_time":6, "ticket_cost":5, "delay_time":0}
@@ -167,7 +167,7 @@
 {"vehicle_name":"Simir MG3" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":5, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"Simir Kord" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":5, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"Simir Kord" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":5, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"MT-LBM 6MA" ,"vehicle_class":"TRACKED_APC", "respawn_time":10, "ticket_cost":10, "delay_time":0},
+{"vehicle_name":"MT-LBM 6MA S8" ,"vehicle_class":"TRACKED_APC", "respawn_time":10, "ticket_cost":10, "delay_time":0},
 {"vehicle_name":"BMP-2" ,"vehicle_class":"TRACKED_IFV", "respawn_time":15, "ticket_cost":10, "delay_time":10},
 {"vehicle_name":"T-72S" ,"vehicle_class":"MBT", "respawn_time":20, "ticket_cost":15, "delay_time":10},
 {"vehicle_name":"Mi-17" ,"vehicle_class":"HELI", "respawn_time":6, "ticket_cost":5, "delay_time":0}
