@@ -1,9 +1,9 @@
 {"map_name": "Black Coast", "layer_list":[
 {"layer_name": "AAS v1", "faction_left": "USMC", "faction_right": "RUS", "vehicle_list_left": [
-{"vehicle_name":"M939 Transport Truck" ,"vehicle_class":"TRANSPORT_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":6},
-{"vehicle_name":"M939 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"M939 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"M939 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"M939 Transport" ,"vehicle_class":"TRANSPORT_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":6},
+{"vehicle_name":"M939 Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"M939 Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"M939 Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"M1151 M2" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":6, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"M1151 M2" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":6, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"AAVP-7A1" ,"vehicle_class":"TRACKED_APC", "respawn_time":10, "ticket_cost":10, "delay_time":0},
@@ -12,10 +12,10 @@
 {"vehicle_name":"LAV-25" ,"vehicle_class":"WHEELED_RECO", "respawn_time":10, "ticket_cost":10, "delay_time":0},
 {"vehicle_name":"UH-1Y" ,"vehicle_class":"HELI", "respawn_time":6, "ticket_cost":5, "delay_time":6}
 ], "vehicle_list_right": [
-{"vehicle_name":"KamAZ 5350 Transport Truck" ,"vehicle_class":"TRANSPORT_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":6},
-{"vehicle_name":"KamAZ 5350 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"KamAZ 5350 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"KamAZ 5350 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"KamAZ 5350 Transport" ,"vehicle_class":"TRANSPORT_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":6},
+{"vehicle_name":"KamAZ 5350 Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"KamAZ 5350 Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"KamAZ 5350 Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"Tigr-M Kord" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":6, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"Tigr-M Kord" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":6, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"BTR-82A" ,"vehicle_class":"WHEELED_IFV", "respawn_time":10, "ticket_cost":10, "delay_time":0},
@@ -24,10 +24,10 @@
 {"vehicle_name":"Mi-8" ,"vehicle_class":"HELI", "respawn_time":6, "ticket_cost":5, "delay_time":6}
 ]},
 {"layer_name": "AAS v2", "faction_left": "GB", "faction_right": "MIL", "vehicle_list_left": [
-{"vehicle_name":"HX60 Transport Truck" ,"vehicle_class":"TRANSPORT_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":6},
-{"vehicle_name":"HX60 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"HX60 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"HX60 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"HX60 Transport" ,"vehicle_class":"TRANSPORT_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":6},
+{"vehicle_name":"HX60 Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"HX60 Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"HX60 Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"LPPV" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":6, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"LPPV" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":6, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"LPPV RWS" ,"vehicle_class":"CAR", "respawn_time":6, "ticket_cost":5, "delay_time":0},
@@ -36,10 +36,10 @@
 {"vehicle_name":"SA330" ,"vehicle_class":"HELI", "respawn_time":6, "ticket_cost":5, "delay_time":10}
 ], "vehicle_list_right": [
 {"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":1, "ticket_cost":1, "delay_time":0},
-{"vehicle_name":"Ural-375D Transport Truck" ,"vehicle_class":"TRANSPORT_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":6},
-{"vehicle_name":"Ural-375D Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"Ural-375D Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"Ural-375D Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"Ural-375D Transport" ,"vehicle_class":"TRANSPORT_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":6},
+{"vehicle_name":"Ural-375D Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"Ural-375D Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"Ural-375D Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"Logistics Modern Pickup Truck" ,"vehicle_class":"LOGI_CAR", "respawn_time":3, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"Logistics Modern Pickup Truck" ,"vehicle_class":"LOGI_CAR", "respawn_time":3, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"Modern Technical M2 HB" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":5, "ticket_cost":5, "delay_time":0},
@@ -55,13 +55,13 @@
 {"vehicle_name":"RHIB Logistics" ,"vehicle_class":"BOAT_LOGI", "respawn_time":1, "ticket_cost":1, "delay_time":0},
 {"vehicle_name":"RHIB M2" ,"vehicle_class":"BOAT_TURRET", "respawn_time":1, "ticket_cost":1, "delay_time":0},
 {"vehicle_name":"RHIB Transport" ,"vehicle_class":"BOAT_TRANSPORT", "respawn_time":1, "ticket_cost":1, "delay_time":0},
-{"vehicle_name":"M939 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"M939 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"M939 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"M939 Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"M939 Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"M939 Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"M1151 M2 Open Doors" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":5, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"M1151 M2" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":6, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"AAVC-7A1 Logistics Vehicle" ,"vehicle_class":"TRACKED_APC_LOGI", "respawn_time":3, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"AAVC-7A1 Logistics Vehicle" ,"vehicle_class":"TRACKED_APC_LOGI", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"AAVC-7A1 Logistics" ,"vehicle_class":"TRACKED_APC_LOGI", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"AAVC-7A1 Logistics" ,"vehicle_class":"TRACKED_APC_LOGI", "respawn_time":3, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"AAVP-7A1" ,"vehicle_class":"TRACKED_APC", "respawn_time":10, "ticket_cost":10, "delay_time":0},
 {"vehicle_name":"AAVP-7A1" ,"vehicle_class":"TRACKED_APC", "respawn_time":10, "ticket_cost":10, "delay_time":0},
 {"vehicle_name":"LAV-25" ,"vehicle_class":"WHEELED_RECO", "respawn_time":10, "ticket_cost":10, "delay_time":0},
@@ -69,12 +69,12 @@
 {"vehicle_name":"UH-1Y" ,"vehicle_class":"HELI", "respawn_time":6, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"UH-1Y" ,"vehicle_class":"HELI", "respawn_time":6, "ticket_cost":5, "delay_time":0}
 ], "vehicle_list_right": [
-{"vehicle_name":"KamAZ 5350 Transport Truck" ,"vehicle_class":"TRANSPORT_TRUCK", "respawn_time":0, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"KamAZ 5350 Transport" ,"vehicle_class":"TRANSPORT_TRUCK", "respawn_time":0, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"Tigr-M Kord" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":0, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"KamAZ 5350 Transport Truck" ,"vehicle_class":"TRANSPORT_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"KamAZ 5350 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":3},
-{"vehicle_name":"KamAZ 5350 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":3},
-{"vehicle_name":"KamAZ 5350 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":3},
+{"vehicle_name":"KamAZ 5350 Transport" ,"vehicle_class":"TRANSPORT_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"KamAZ 5350 Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":3},
+{"vehicle_name":"KamAZ 5350 Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":3},
+{"vehicle_name":"KamAZ 5350 Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":3},
 {"vehicle_name":"Tigr-M Kord" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":6, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"Tigr-M Kord" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":6, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"BRDM-2" ,"vehicle_class":"CAR", "respawn_time":6, "ticket_cost":5, "delay_time":5},
@@ -88,13 +88,13 @@
 {"vehicle_name":"RHIB Logistics" ,"vehicle_class":"BOAT_LOGI", "respawn_time":1, "ticket_cost":1, "delay_time":0},
 {"vehicle_name":"RHIB M2" ,"vehicle_class":"BOAT_TURRET", "respawn_time":1, "ticket_cost":1, "delay_time":0},
 {"vehicle_name":"RHIB Transport" ,"vehicle_class":"BOAT_TRANSPORT", "respawn_time":1, "ticket_cost":1, "delay_time":0},
-{"vehicle_name":"M939 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"M939 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"M939 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"M939 Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"M939 Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"M939 Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"M1151 M2 Open Doors" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":5, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"M1151 M2" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":6, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"AAVC-7A1 Logistics Vehicle" ,"vehicle_class":"TRACKED_APC_LOGI", "respawn_time":3, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"AAVC-7A1 Logistics Vehicle" ,"vehicle_class":"TRACKED_APC_LOGI", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"AAVC-7A1 Logistics" ,"vehicle_class":"TRACKED_APC_LOGI", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"AAVC-7A1 Logistics" ,"vehicle_class":"TRACKED_APC_LOGI", "respawn_time":3, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"AAVP-7A1" ,"vehicle_class":"TRACKED_APC", "respawn_time":10, "ticket_cost":10, "delay_time":0},
 {"vehicle_name":"AAVP-7A1" ,"vehicle_class":"TRACKED_APC", "respawn_time":10, "ticket_cost":10, "delay_time":0},
 {"vehicle_name":"LAV-25" ,"vehicle_class":"WHEELED_RECO", "respawn_time":10, "ticket_cost":10, "delay_time":0},
@@ -103,8 +103,8 @@
 {"vehicle_name":"UH-1Y" ,"vehicle_class":"HELI", "respawn_time":6, "ticket_cost":5, "delay_time":0}
 ], "vehicle_list_right": [
 {"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":1, "ticket_cost":1, "delay_time":0},
-{"vehicle_name":"Ural-375D Transport Truck" ,"vehicle_class":"TRANSPORT_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":6},
-{"vehicle_name":"Ural-375D Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"Ural-375D Transport" ,"vehicle_class":"TRANSPORT_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":6},
+{"vehicle_name":"Ural-375D Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"Logistics Modern Pickup Truck" ,"vehicle_class":"LOGI_CAR", "respawn_time":3, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"Modern Technical M2 HB" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":5, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"Modern Technical SPG-9" ,"vehicle_class":"ARMOR_HUNTER", "respawn_time":6, "ticket_cost":5, "delay_time":0},
@@ -121,8 +121,8 @@
 {"vehicle_name":"RHIB Transport" ,"vehicle_class":"BOAT_TRANSPORT", "respawn_time":1, "ticket_cost":1, "delay_time":0},
 {"vehicle_name":"RHIB Logistics" ,"vehicle_class":"BOAT_LOGI", "respawn_time":1, "ticket_cost":1, "delay_time":0},
 {"vehicle_name":"RHIB Logistics" ,"vehicle_class":"BOAT_LOGI", "respawn_time":1, "ticket_cost":1, "delay_time":0},
-{"vehicle_name":"MSVS Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"MSVS Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"MSVS Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"MSVS Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"LUVW M2" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":6, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"LUVW M2" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":6, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"LUVW M2" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":6, "ticket_cost":5, "delay_time":0},
@@ -132,8 +132,8 @@
 {"vehicle_name":"CH-146" ,"vehicle_class":"HELI", "respawn_time":6, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"CH-146" ,"vehicle_class":"HELI", "respawn_time":6, "ticket_cost":5, "delay_time":0}
 ], "vehicle_list_right": [
-{"vehicle_name":"Ural-375D Transport Truck" ,"vehicle_class":"TRANSPORT_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":6},
-{"vehicle_name":"Ural-375D Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"Ural-375D Transport" ,"vehicle_class":"TRANSPORT_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":6},
+{"vehicle_name":"Ural-375D Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"Logistics Modern Pickup Truck" ,"vehicle_class":"LOGI_CAR", "respawn_time":3, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"Logistics Modern Pickup Truck" ,"vehicle_class":"LOGI_CAR", "respawn_time":3, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"Modern Technical M2 HB" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":5, "ticket_cost":5, "delay_time":0},
@@ -147,10 +147,10 @@
 {"vehicle_name":"BTR-80" ,"vehicle_class":"WHEELED_APC", "respawn_time":6, "ticket_cost":5, "delay_time":10}
 ]},
 {"layer_name": "Invasion v4", "faction_left": "RUS", "faction_right": "MIL", "vehicle_list_left": [
-{"vehicle_name":"KamAZ 5350 Transport Truck" ,"vehicle_class":"TRANSPORT_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":6},
-{"vehicle_name":"MT-LB Logistics Vehicle" ,"vehicle_class":"TRACKED_APC_LOGI", "respawn_time":3, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"KamAZ 5350 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"KamAZ 5350 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"KamAZ 5350 Transport" ,"vehicle_class":"TRANSPORT_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":6},
+{"vehicle_name":"MT-LB Logistics" ,"vehicle_class":"TRACKED_APC_LOGI", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"KamAZ 5350 Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"KamAZ 5350 Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"Tigr-M Kord" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":6, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"Tigr-M Kord" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":6, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"Tigr-M Kord" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":6, "ticket_cost":5, "delay_time":0},
@@ -162,8 +162,8 @@
 {"vehicle_name":"Mi-8" ,"vehicle_class":"HELI", "respawn_time":6, "ticket_cost":5, "delay_time":15}
 ], "vehicle_list_right": [
 {"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":1, "ticket_cost":1, "delay_time":0},
-{"vehicle_name":"Ural-375D Transport Truck" ,"vehicle_class":"TRANSPORT_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":6},
-{"vehicle_name":"Ural-375D Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"Ural-375D Transport" ,"vehicle_class":"TRANSPORT_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":6},
+{"vehicle_name":"Ural-375D Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"Logistics Modern Pickup Truck" ,"vehicle_class":"LOGI_CAR", "respawn_time":3, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"Modern Technical M2 HB" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":5, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"Modern Technical SPG-9" ,"vehicle_class":"ARMOR_HUNTER", "respawn_time":6, "ticket_cost":5, "delay_time":0},
@@ -179,10 +179,10 @@
 {"vehicle_name":"Logistics Modern Pickup Truck" ,"vehicle_class":"LOGI_CAR", "respawn_time":3, "ticket_cost":5, "delay_time":0}
 ]},
 {"layer_name": "RAAS v1", "faction_left": "USMC", "faction_right": "RUS", "vehicle_list_left": [
-{"vehicle_name":"M939 Transport Truck" ,"vehicle_class":"TRANSPORT_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":6},
-{"vehicle_name":"M939 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"M939 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"M939 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"M939 Transport" ,"vehicle_class":"TRANSPORT_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":6},
+{"vehicle_name":"M939 Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"M939 Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"M939 Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"M1151 M2" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":6, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"M1151 M2" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":6, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"M1151 M2" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":6, "ticket_cost":5, "delay_time":0},
@@ -196,10 +196,10 @@
 {"vehicle_name":"UH-1Y" ,"vehicle_class":"HELI", "respawn_time":6, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"UH-1Y" ,"vehicle_class":"HELI", "respawn_time":6, "ticket_cost":5, "delay_time":0}
 ], "vehicle_list_right": [
-{"vehicle_name":"KamAZ 5350 Transport Truck" ,"vehicle_class":"TRANSPORT_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":6},
-{"vehicle_name":"KamAZ 5350 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"KamAZ 5350 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"KamAZ 5350 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"KamAZ 5350 Transport" ,"vehicle_class":"TRANSPORT_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":6},
+{"vehicle_name":"KamAZ 5350 Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"KamAZ 5350 Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"KamAZ 5350 Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"Tigr-M Kord" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":6, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"Tigr-M Kord" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":6, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"Tigr-M Kord" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":6, "ticket_cost":5, "delay_time":0},
@@ -213,10 +213,10 @@
 {"vehicle_name":"Mi-8" ,"vehicle_class":"HELI", "respawn_time":6, "ticket_cost":5, "delay_time":0}
 ]},
 {"layer_name": "RAAS v2", "faction_left": "USMC", "faction_right": "MIL", "vehicle_list_left": [
-{"vehicle_name":"M939 Transport Truck" ,"vehicle_class":"TRANSPORT_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":6},
-{"vehicle_name":"AAVC-7A1 Logistics Vehicle" ,"vehicle_class":"TRACKED_APC_LOGI", "respawn_time":3, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"M939 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"M939 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"M939 Transport" ,"vehicle_class":"TRANSPORT_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":6},
+{"vehicle_name":"AAVC-7A1 Logistics" ,"vehicle_class":"TRACKED_APC_LOGI", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"M939 Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"M939 Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"M1151 M2" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":6, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"M1151 M2" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":6, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"AAVP-7A1" ,"vehicle_class":"TRACKED_APC", "respawn_time":10, "ticket_cost":10, "delay_time":0},
@@ -225,9 +225,9 @@
 {"vehicle_name":"M1A1" ,"vehicle_class":"MBT", "respawn_time":20, "ticket_cost":15, "delay_time":15},
 {"vehicle_name":"UH-1Y" ,"vehicle_class":"HELI", "respawn_time":6, "ticket_cost":5, "delay_time":10}
 ], "vehicle_list_right": [
-{"vehicle_name":"Ural-375D Transport Truck" ,"vehicle_class":"TRANSPORT_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":6},
-{"vehicle_name":"Ural-375D Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"Ural-375D Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"Ural-375D Transport" ,"vehicle_class":"TRANSPORT_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":6},
+{"vehicle_name":"Ural-375D Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"Ural-375D Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"Logistics Modern Pickup Truck" ,"vehicle_class":"LOGI_CAR", "respawn_time":3, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"Logistics Modern Pickup Truck" ,"vehicle_class":"LOGI_CAR", "respawn_time":3, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"Logistics Modern Pickup Truck" ,"vehicle_class":"LOGI_CAR", "respawn_time":3, "ticket_cost":5, "delay_time":0},
@@ -243,10 +243,10 @@
 {"vehicle_name":"T-62" ,"vehicle_class":"MBT", "respawn_time":20, "ticket_cost":15, "delay_time":0}
 ]},
 {"layer_name": "RAAS v3", "faction_left": "GB", "faction_right": "RUS", "vehicle_list_left": [
-{"vehicle_name":"HX60 Transport Truck" ,"vehicle_class":"TRANSPORT_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":6},
-{"vehicle_name":"HX60 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"HX60 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"HX60 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"HX60 Transport" ,"vehicle_class":"TRANSPORT_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":6},
+{"vehicle_name":"HX60 Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"HX60 Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"HX60 Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"LPPV" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":6, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"LPPV" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":6, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"LPPV RWS" ,"vehicle_class":"CAR", "respawn_time":6, "ticket_cost":5, "delay_time":0},
@@ -258,10 +258,10 @@
 {"vehicle_name":"SA330" ,"vehicle_class":"HELI", "respawn_time":6, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"SA330" ,"vehicle_class":"HELI", "respawn_time":6, "ticket_cost":5, "delay_time":0}
 ], "vehicle_list_right": [
-{"vehicle_name":"KamAZ 5350 Transport Truck" ,"vehicle_class":"TRANSPORT_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":6},
-{"vehicle_name":"KamAZ 5350 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"KamAZ 5350 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"KamAZ 5350 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"KamAZ 5350 Transport" ,"vehicle_class":"TRANSPORT_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":6},
+{"vehicle_name":"KamAZ 5350 Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"KamAZ 5350 Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"KamAZ 5350 Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"Tigr-M Kord" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":6, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"Tigr-M Kord" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":6, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"Tigr-M RWS Kord" ,"vehicle_class":"CAR", "respawn_time":6, "ticket_cost":5, "delay_time":0},
@@ -276,8 +276,8 @@
 {"vehicle_name":"LUVW Transport" ,"vehicle_class":"TRANSPORT_CAR", "respawn_time":3, "ticket_cost":5, "delay_time":6},
 {"vehicle_name":"LUVW Transport" ,"vehicle_class":"TRANSPORT_CAR", "respawn_time":3, "ticket_cost":5, "delay_time":6},
 {"vehicle_name":"LUVW Logistics" ,"vehicle_class":"LOGI_CAR", "respawn_time":3, "ticket_cost":1, "delay_time":0},
-{"vehicle_name":"MSVS Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"MSVS Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"MSVS Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"MSVS Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"LUVW M2" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":6, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"LUVW M2" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":6, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"TAPV M2" ,"vehicle_class":"CAR", "respawn_time":6, "ticket_cost":5, "delay_time":0},
@@ -289,10 +289,10 @@
 {"vehicle_name":"CH-146" ,"vehicle_class":"HELI", "respawn_time":6, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"CH-146" ,"vehicle_class":"HELI", "respawn_time":6, "ticket_cost":5, "delay_time":0}
 ], "vehicle_list_right": [
-{"vehicle_name":"KamAZ 5350 Transport Truck" ,"vehicle_class":"TRANSPORT_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":6},
-{"vehicle_name":"KamAZ 5350 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"KamAZ 5350 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"KamAZ 5350 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"KamAZ 5350 Transport" ,"vehicle_class":"TRANSPORT_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":6},
+{"vehicle_name":"KamAZ 5350 Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"KamAZ 5350 Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"KamAZ 5350 Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"Tigr-M Kord" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":6, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"Tigr-M Kord" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":6, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"Tigr-M RWS Kord" ,"vehicle_class":"CAR", "respawn_time":6, "ticket_cost":5, "delay_time":0},
@@ -305,27 +305,27 @@
 {"vehicle_name":"Mi-8" ,"vehicle_class":"HELI", "respawn_time":6, "ticket_cost":5, "delay_time":0}
 ]},
 {"layer_name": "Seed v1", "faction_left": "USMC", "faction_right": "RUS", "vehicle_list_left": [
-{"vehicle_name":"M939 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"M939 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"M939 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"M939 Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"M939 Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"M939 Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"M1151 M2" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":6, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"M1151 M2" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":6, "ticket_cost":5, "delay_time":0}
 ], "vehicle_list_right": [
-{"vehicle_name":"KamAZ 5350 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"KamAZ 5350 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"KamAZ 5350 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"KamAZ 5350 Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"KamAZ 5350 Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"KamAZ 5350 Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"Tigr-M Kord" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":6, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"Tigr-M Kord" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":6, "ticket_cost":5, "delay_time":0}
 ]},
 {"layer_name": "Skirmish v1", "faction_left": "USMC", "faction_right": "RUS", "vehicle_list_left": [
-{"vehicle_name":"M939 Transport Truck" ,"vehicle_class":"TRANSPORT_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":6},
-{"vehicle_name":"M939 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"M939 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"M939 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0}
+{"vehicle_name":"M939 Transport" ,"vehicle_class":"TRANSPORT_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":6},
+{"vehicle_name":"M939 Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"M939 Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"M939 Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0}
 ], "vehicle_list_right": [
-{"vehicle_name":"KamAZ 5350 Transport Truck" ,"vehicle_class":"TRANSPORT_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":6},
-{"vehicle_name":"KamAZ 5350 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"KamAZ 5350 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
-{"vehicle_name":"KamAZ 5350 Logistics Truck" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0}
+{"vehicle_name":"KamAZ 5350 Transport" ,"vehicle_class":"TRANSPORT_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":6},
+{"vehicle_name":"KamAZ 5350 Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"KamAZ 5350 Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"KamAZ 5350 Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0}
 ]}
 ]}

@@ -1,5 +1,6 @@
 package com.squadapp.squadvehicletimer;
 
+import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 
@@ -12,7 +13,10 @@ import com.squadapp.squadvehicletimer.utils.VehicleType;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 
 import android.view.ViewGroup;
@@ -38,7 +42,7 @@ import java.util.stream.Collectors;
 import static com.squadapp.squadvehicletimer.R.string.load_map_fail_message;
 
 public class MainActivity extends AppCompatActivity {
-    private final String JSON_PATH = "raw";
+    private final String JSON_PATH = "raw/maps";
 
     private ViewGroup leftLayout;
     private ViewGroup rightLayout;
@@ -61,6 +65,10 @@ public class MainActivity extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
+        myToolbar.setTitle("Timers by layers");
+        setSupportActionBar(myToolbar);
 
         // Load map list from json files
         loadDataFromFiles();
@@ -215,6 +223,33 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_main, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        Intent myIntent;
+        switch (item.getItemId()) {
+            case R.id.action_timers:
+                myIntent = new Intent(this, MainActivity.class);
+                startActivityForResult(myIntent, 0);
+                return true;
+
+            case R.id.action_vehicles:
+                myIntent = new Intent(this, VehicleStatsActivity.class);
+                startActivityForResult(myIntent, 0);
+                return true;
+
+            default:
+                return super.onOptionsItemSelected(item);
+
+        }
+    }
+
 
     /** Create new TimerBlock fragment */
     private TimerBlock createTimer(Vehicle vehicle, ViewGroup layout){

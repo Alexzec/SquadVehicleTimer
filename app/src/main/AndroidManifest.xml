@@ -2,18 +2,19 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.squadapp.squadvehicletimer">
 
-    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.VIBRATE" />
 
     <application
+        android:name=".SquadVehicleTimer"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.SquadVehicleTimer"
-        android:name="com.squadapp.squadvehicletimer.SquadVehicleTimer">
+        android:theme="@style/Theme.SquadVehicleTimer">
+        <activity android:name=".VehicleStatsActivity" android:theme="@style/Theme.SquadVehicleTimer.NoActionBar"></activity>
         <activity
-            android:name="com.squadapp.squadvehicletimer.MainActivity"
+            android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.SquadVehicleTimer.NoActionBar">
@@ -24,4 +25,5 @@
             </intent-filter>
         </activity>
     </application>
+
 </manifest>

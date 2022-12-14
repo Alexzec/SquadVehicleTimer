@@ -27,7 +27,9 @@ public enum VehicleType {
     BOAT_TURRET(R.drawable.boat_icon, R.drawable.boat_detroyed_icon, R.drawable.boat_ok_icon, 10),
     BOAT_LOGI(R.drawable.boat_icon, R.drawable.boat_detroyed_icon, R.drawable.boat_ok_icon, 10),
     BOAT_TRANSPORT(R.drawable.boat_icon, R.drawable.boat_detroyed_icon, R.drawable.boat_ok_icon, 10),
-    TRACKED_APC_LOGI(R.drawable.tracked_apc_open_icon, R.drawable.tracked_apc_open_destroyed_icon, R.drawable.tracked_apc_open_ok_icon, 6);
+    TRACKED_APC_LOGI(R.drawable.tracked_apc_open_icon, R.drawable.tracked_apc_open_destroyed_icon, R.drawable.tracked_apc_open_ok_icon, 6),
+    WHEELED_APC_OPEN_TOP(R.drawable.wheeled_apc_icon, R.drawable.wheeled_apc_destroyed_icon, R.drawable.wheeled_apc_ok_icon, 6),
+    TRANSPORT_ARMED(R.drawable.transport_truck_icon, R.drawable.transport_truck_destroyed_icon, R.drawable.transport_truck_ok_icon, 10);
 
     public final int icon;
     public final int destroyed_icon;
