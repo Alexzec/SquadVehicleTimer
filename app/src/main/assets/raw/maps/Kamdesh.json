@@ -70,6 +70,11 @@
 {"vehicle_name":"FV432" ,"vehicle_class":"TRACKED_APC", "respawn_time":6, "ticket_cost":5, "delay_time":0}
 ], "vehicle_list_right": [
 {"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":1, "ticket_cost":1, "delay_time":0},
+{"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":1, "ticket_cost":1, "delay_time":0},
+{"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":1, "ticket_cost":1, "delay_time":0},
+{"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":1, "ticket_cost":1, "delay_time":0},
+{"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":1, "ticket_cost":1, "delay_time":0},
+{"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":1, "ticket_cost":1, "delay_time":0},
 {"vehicle_name":"Logistics Pickup Truck" ,"vehicle_class":"LOGI_CAR", "respawn_time":3, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"Logistics Pickup Truck" ,"vehicle_class":"LOGI_CAR", "respawn_time":3, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"Logistics Pickup Truck" ,"vehicle_class":"LOGI_CAR", "respawn_time":3, "ticket_cost":5, "delay_time":0},
@@ -84,6 +89,13 @@
 {"vehicle_name":"Technical SPG-9" ,"vehicle_class":"ARMOR_HUNTER", "respawn_time":10, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"BMP-1" ,"vehicle_class":"TRACKED_IFV", "respawn_time":14, "ticket_cost":10, "delay_time":0},
 {"vehicle_name":"Armored Technical SPG-9" ,"vehicle_class":"ARMOR_HUNTER", "respawn_time":10, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":0, "ticket_cost":1, "delay_time":0},
+{"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":0, "ticket_cost":1, "delay_time":0},
+{"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":0, "ticket_cost":1, "delay_time":0},
+{"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":0, "ticket_cost":1, "delay_time":0},
+{"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":0, "ticket_cost":1, "delay_time":0},
+{"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":0, "ticket_cost":1, "delay_time":0},
+{"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":0, "ticket_cost":1, "delay_time":0},
 {"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":0, "ticket_cost":1, "delay_time":0}
 ]},
 {"layer_name": "Invasion v1", "faction_left": "US", "faction_right": "INS", "vehicle_list_left": [
@@ -100,6 +112,9 @@
 {"vehicle_name":"UH-60M" ,"vehicle_class":"HELI", "respawn_time":6, "ticket_cost":5, "delay_time":10}
 ], "vehicle_list_right": [
 {"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":1, "ticket_cost":1, "delay_time":0},
+{"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":1, "ticket_cost":1, "delay_time":0},
+{"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":1, "ticket_cost":1, "delay_time":0},
+{"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":1, "ticket_cost":1, "delay_time":0},
 {"vehicle_name":"Transport Pickup Truck" ,"vehicle_class":"TRANSPORT_CAR", "respawn_time":3, "ticket_cost":5, "delay_time":6},
 {"vehicle_name":"Logistics Pickup Truck" ,"vehicle_class":"LOGI_CAR", "respawn_time":3, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"Logistics Pickup Truck" ,"vehicle_class":"LOGI_CAR", "respawn_time":3, "ticket_cost":5, "delay_time":0},
@@ -115,6 +130,9 @@
 {"vehicle_name":"Technical SPG-9" ,"vehicle_class":"ARMOR_HUNTER", "respawn_time":10, "ticket_cost":5, "delay_time":5},
 {"vehicle_name":"BRDM-2" ,"vehicle_class":"CAR", "respawn_time":6, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"BRDM-2" ,"vehicle_class":"CAR", "respawn_time":6, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":0, "ticket_cost":1, "delay_time":0},
+{"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":0, "ticket_cost":1, "delay_time":0},
+{"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":0, "ticket_cost":1, "delay_time":0},
 {"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":0, "ticket_cost":1, "delay_time":0}
 ]},
 {"layer_name": "Invasion v2", "faction_left": "GB", "faction_right": "INS", "vehicle_list_left": [
@@ -219,6 +237,9 @@
 {"vehicle_name":"Technical SPG-9" ,"vehicle_class":"ARMOR_HUNTER", "respawn_time":10, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"BRDM-2" ,"vehicle_class":"CAR", "respawn_time":6, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"BRDM-2" ,"vehicle_class":"CAR", "respawn_time":6, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":0, "ticket_cost":1, "delay_time":0},
+{"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":0, "ticket_cost":1, "delay_time":0},
+{"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":0, "ticket_cost":1, "delay_time":0},
 {"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":0, "ticket_cost":1, "delay_time":0}
 ]},
 {"layer_name": "Invasion v5", "faction_left": "AUS", "faction_right": "INS", "vehicle_list_left": [
@@ -253,6 +274,9 @@
 {"vehicle_name":"Technical SPG-9" ,"vehicle_class":"ARMOR_HUNTER", "respawn_time":10, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"BRDM-2" ,"vehicle_class":"CAR", "respawn_time":6, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"BRDM-2" ,"vehicle_class":"CAR", "respawn_time":6, "ticket_cost":5, "delay_time":0},
+{"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":0, "ticket_cost":1, "delay_time":0},
+{"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":0, "ticket_cost":1, "delay_time":0},
+{"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":0, "ticket_cost":1, "delay_time":0},
 {"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":0, "ticket_cost":1, "delay_time":0}
 ]},
 {"layer_name": "Invasion v6", "faction_left": "AUS", "faction_right": "MEA", "vehicle_list_left": [
@@ -299,6 +323,9 @@
 {"vehicle_name":"Leopard 2A6M CAN" ,"vehicle_class":"MBT", "respawn_time":20, "ticket_cost":15, "delay_time":10},
 {"vehicle_name":"CH-146" ,"vehicle_class":"HELI", "respawn_time":6, "ticket_cost":5, "delay_time":6}
 ], "vehicle_list_right": [
+{"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":1, "ticket_cost":1, "delay_time":0},
+{"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":1, "ticket_cost":1, "delay_time":0},
+{"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":1, "ticket_cost":1, "delay_time":0},
 {"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":1, "ticket_cost":1, "delay_time":0},
 {"vehicle_name":"MT-LB PKT" ,"vehicle_class":"TRACKED_APC", "respawn_time":0, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"Ural-375D Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":0, "ticket_cost":5, "delay_time":0},
@@ -469,6 +496,11 @@
 {"vehicle_name":"M113A3 TLAV" ,"vehicle_class":"TRACKED_APC", "respawn_time":6, "ticket_cost":5, "delay_time":0}
 ], "vehicle_list_right": [
 {"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":1, "ticket_cost":1, "delay_time":0},
+{"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":1, "ticket_cost":1, "delay_time":0},
+{"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":1, "ticket_cost":1, "delay_time":0},
+{"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":1, "ticket_cost":1, "delay_time":0},
+{"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":1, "ticket_cost":1, "delay_time":0},
+{"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":1, "ticket_cost":1, "delay_time":0},
 {"vehicle_name":"Ural-375D Transport" ,"vehicle_class":"TRANSPORT_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":6},
 {"vehicle_name":"Ural-375D Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"Ural-375D Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
@@ -585,6 +617,11 @@
 {"vehicle_name":"LUVW C6" ,"vehicle_class":"CAR_OPEN_TOP", "respawn_time":6, "ticket_cost":5, "delay_time":0},
 {"vehicle_name":"M113A3 TLAV" ,"vehicle_class":"TRACKED_APC", "respawn_time":6, "ticket_cost":5, "delay_time":0}
 ], "vehicle_list_right": [
+{"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":1, "ticket_cost":1, "delay_time":0},
+{"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":1, "ticket_cost":1, "delay_time":0},
+{"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":1, "ticket_cost":1, "delay_time":0},
+{"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":1, "ticket_cost":1, "delay_time":0},
+{"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":1, "ticket_cost":1, "delay_time":0},
 {"vehicle_name":"Minsk 400" ,"vehicle_class":"BIKE", "respawn_time":1, "ticket_cost":1, "delay_time":0},
 {"vehicle_name":"Transport Pickup Truck" ,"vehicle_class":"TRANSPORT_CAR", "respawn_time":3, "ticket_cost":5, "delay_time":6},
 {"vehicle_name":"Ural-375D Logistics" ,"vehicle_class":"LOGI_TRUCK", "respawn_time":3, "ticket_cost":5, "delay_time":0},
